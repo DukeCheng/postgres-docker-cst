@@ -1,0 +1,1 @@
+docker build --build-arg BUILD_DATE="`date`" --build-arg BUILD_VERSION=$1  -t postgres-cst:$1 .
